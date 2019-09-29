@@ -6,6 +6,13 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/Index.vue') }
     ]
+  },
+  {
+    path: '/watch',
+    component: () => import('layouts/Main.vue'),
+    children: [
+      { path: '', component: () => import('pages/Watch.vue') }
+    ]
   }
 ]
 

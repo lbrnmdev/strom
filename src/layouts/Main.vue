@@ -1,7 +1,7 @@
 <template>
   <q-layout view="hHh lpR fff">
 
-    <q-header bordered class="bg-primary text-white">
+    <q-header bordered class="bg-white text-primary">
       <q-toolbar>
         <q-toolbar-title class="text-center">
           <strong>telco</strong>

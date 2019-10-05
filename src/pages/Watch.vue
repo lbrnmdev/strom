@@ -9,6 +9,9 @@ import TransactionFeed from '../components/TransactionFeed'
 
 export default {
   name: 'PageWatch',
-  components: { TransactionFeed }
+  components: { TransactionFeed },
+  data () {
+    return {}
+  }
 }
 </script>
